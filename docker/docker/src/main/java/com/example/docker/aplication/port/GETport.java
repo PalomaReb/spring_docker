@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface GETport {
     public List<Person>getAllPerson();
-    public List<Person> findByName(String user);
+    public List<Person> findByName(String Name);
     public Person getByID(int id) throws Exception;
 }

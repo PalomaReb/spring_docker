@@ -12,7 +12,7 @@ import java.util.Date;
 @Data
 public class PersonOUTPUT {
     private int id;
-    private String user;
+    private String userName;
     private String password;
     private String name;
     private String lastName;
@@ -27,7 +27,7 @@ public class PersonOUTPUT {
     public PersonOUTPUT changeDTO(Person person){
         PersonOUTPUT personOUTPUT = new PersonOUTPUT();
         this.id = person.getId();
-        this.user  = person.getUser();
+        this.userName  = person.getUserName();
         this.password = person.getPassword();
         this.name = person.getName();
         this.lastName = person.getLastName();

@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 public class PersonINPUT {
-    private String user;
+    private String userName;
     private String password;
     private String name;
     private String lastName;
@@ -24,7 +24,7 @@ public class PersonINPUT {
     public Person toOutput(PersonINPUT personINPUT) {
         Person person = new Person();
 
-        person.setUser(personINPUT.getUser());
+        person.setUserName(personINPUT.getUserName());
         person.setPassword(personINPUT.getPassword());
         person.setName(personINPUT.getName());
         person.setLastName(personINPUT.getLastName());

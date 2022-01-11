@@ -18,8 +18,8 @@ public class GETusecase implements GETport {
         return personJPA.findAll();
     }
 
-    public List<Person> findByName( String user){
-    return  personJPA.findByName(user);
+    public List<Person> findByName( String Name){
+    return  personJPA.findByName(Name);
     }
 
     public Person getByID(int id) throws Exception{

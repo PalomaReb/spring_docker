@@ -17,7 +17,7 @@ public class Person {
         @GeneratedValue
         private int id;
 
-        private String user;
+        private String userName;
         private String password;
         private String name;
         private String lastName;
